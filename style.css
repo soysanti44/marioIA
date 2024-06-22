@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-image: url("background.jpg");
+}
+.top {
+    background-color: black;
+    text-align: center;
+    height: 120px;
+}
+.mario {
+    width: 100%;
+}
+#ti {
+    text-align: center;
+    display: inline;
+    font-size: 120px;
+    font-family: myFirstFont;
+    background: linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(ponlenosefueguito/Oakland\ Hills\ 1991.ttf);
+  }
+.button {
+    float: right;
+    background-image: url("https://wallpapercave.com/wp/1ymZb4R.jpg");
+    background-size:contain;
+    background-color: blue;
+    will-change: 50%;
+    border-radius: 30%;
+    height: 120px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 1000;
+}
+#tia {
+    text-align: center;
+    display: inline;
+    font-size: 50px;
+    font-family: myFirstFonta;
+    background: linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@font-face {
+    font-family: myFirstFonta;
+    src: url(puesflameropuessiflamer/FLAMER.TTF);
+  }
+.modal-content{
+    background-color: black;
+}
+.boton_jugar {
+  width: 80px;
+  height: 40px;
+  color: white;
+  background-color: red;
+}
+video {
+  background-image: url("game_console.png");
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
+}
